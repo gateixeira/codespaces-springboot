@@ -26,18 +26,20 @@
 				"vmware.vscode-boot-dev-pack"
 			]
 		}
-	},
-
-	"portsAttributes": {
-		"3000": {
-		  "label": "Application",
-		  "onAutoForward": "openPreview"
-		}
-	},
-	"forwardPorts": [8080],
-	"postAttachCommand": {
-		"server": "mvn spring-boot:run"
 	}
+
+
+
+	//"portsAttributes": {
+	//	"3000": {
+	//	  "label": "Application",
+	//	  "onAutoForward": "openPreview"
+	//	}
+	//},
+	//"forwardPorts": [8080],
+	//"postAttachCommand": {
+	//	"server": "mvn spring-boot:run"
+	//}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
